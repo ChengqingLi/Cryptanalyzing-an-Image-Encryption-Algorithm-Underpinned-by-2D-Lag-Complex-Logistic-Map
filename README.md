@@ -4,4 +4,4 @@ This code requires OpenCV basic environment. All the C++ code is contained in th
 
 - Main.cpp
 
-`a, b, SumR, SumG, SumB` correspond to the control parameter and key. In the main function, you can read the image stored in `image` folder (not larger than 3\*256\*256), the code will automatically run the attack process, and the cipher-image `Tempchiper.jpg` and attack result `Tempattack.jpg` during this process will be stored in the `image` folder.
+`a, b, SumR, SumG, SumB` correspond to the control parameter and key. In the main function, you can read the cipher-image stored in `image` folder (We recommend using bmp images and size no larger than 3\*256\*256), the code will automatically run the attack process, and attack result `Tempattack.jpg` during this process will be stored in the `image` folder.
